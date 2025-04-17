@@ -1,15 +1,13 @@
-﻿
-using System.Text.Json;
-using System.Xml.Linq;
-using GamesExporter.Models;
+﻿using GamesExporter.Models;
 using GamesExporter.Services;
 
 var jsonService = new JsonService();
 var xmlService = new XmlService();
+var printGames = new PrintGames();
 
 var games = jsonService.ReadJson("/Users/joyheurtaux/Sites/ipi/linq/GamesExporter/GamesExporter/Json/games.json");
 
-bool running = true;
+var running = true;
 
 while (running)
 {
@@ -25,12 +23,12 @@ while (running)
     {
         case "1":
             Console.Write("Nom à chercher : ");
-            string search = Console.ReadLine().ToLower();
+            string search = Console.ReadLine()!.ToLower();
             var searchResults = 
                 from game in games
-                where game.Name.ToLower().Contains(search)
+                where game.Name.Contains(search, StringComparison.CurrentCultureIgnoreCase)
                 select game;
-            PrintGames(searchResults);
+            printGames.PrintValues(searchResults);
             break;
 
         case "2":
@@ -38,7 +36,7 @@ while (running)
                 from game in games
                 orderby game.Score descending
                 select game;
-            PrintGames(sorted);
+            printGames.PrintValues(sorted);
             break;
 
         case "3":
@@ -67,13 +65,5 @@ while (running)
         default:
             Console.WriteLine("Choix invalide.");
             break;
-    }
-}
-
-void PrintGames(IEnumerable<Game> list)
-{
-    foreach (var game in list)
-    {
-        Console.WriteLine($"{game.Name} | {game.Score}/10 | {game.Editor} | {game.ReleaseDate}");
     }
 }
