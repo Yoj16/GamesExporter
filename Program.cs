@@ -1,5 +1,4 @@
-﻿using GamesExporter.Models;
-using GamesExporter.Services;
+﻿using GamesExporter.Services;
 
 var jsonService = new JsonService();
 var xmlService = new XmlService();
