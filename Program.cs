@@ -1,15 +1,13 @@
 ﻿
 using System.Text.Json;
 using System.Xml.Linq;
-using GamesExporter;
+using GamesExporter.Models;
+using GamesExporter.Services;
 
-List<Game> games;
+var jsonService = new JsonService();
+var xmlService = new XmlService();
 
-using (var reader = new StreamReader("/Users/joyheurtaux/Sites/ipi/linq/GamesExporter/GamesExporter/games.json"))
-{
-    var json = reader.ReadToEnd();
-    games = JsonSerializer.Deserialize<List<Game>>(json);
-}
+var games = jsonService.ReadJson("/Users/joyheurtaux/Sites/ipi/linq/GamesExporter/GamesExporter/Json/games.json");
 
 bool running = true;
 
@@ -59,19 +57,7 @@ while (running)
             break;
 
         case "4":
-            var xml = new XElement("Games",
-                from game in games
-                select new XElement("Game",
-                    new XElement("Id", game.Id),
-                    new XElement("Name", game.Name),
-                    new XElement("Amount", game.Amount),
-                    new XElement("Score", game.Score),
-                    new XElement("ReleaseDate", game.ReleaseDate),
-                    new XElement("Editor", game.Editor)
-                )
-            );
-            xml.Save("/Users/joyheurtaux/Sites/ipi/linq/GamesExporter/GamesExporter/games_export.xml");
-            Console.WriteLine("Export XML terminé !");
+            xmlService.ExportToXml(games, "/Users/joyheurtaux/Sites/ipi/linq/GamesExporter/GamesExporter/XML/games.xml");
             break;
 
         case "5":

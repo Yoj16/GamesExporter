@@ -1,6 +1,6 @@
 using System.Text.Json.Serialization;
 
-namespace GamesExporter;
+namespace GamesExporter.Models;
 
 public class Game
 {
