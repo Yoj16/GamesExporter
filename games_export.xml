@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Games>
+  <Game>
+    <Id>1</Id>
+    <Name>Metal Gear Solid</Name>
+    <Amount>49.99</Amount>
+    <Score>9.8</Score>
+    <ReleaseDate>1998-10-21</ReleaseDate>
+    <Editor>Konami</Editor>
+  </Game>
+  <Game>
+    <Id>2</Id>
+    <Name>Final Fantasy VII</Name>
+    <Amount>59.99</Amount>
+    <Score>9.7</Score>
+    <ReleaseDate>1997-01-31</ReleaseDate>
+    <Editor>SquareSoft</Editor>
+  </Game>
+  <Game>
+    <Id>3</Id>
+    <Name>God of War</Name>
+    <Amount>69.99</Amount>
+    <Score>9.6</Score>
+    <ReleaseDate>2018-04-20</ReleaseDate>
+    <Editor>Sony Interactive Entertainment</Editor>
+  </Game>
+  <Game>
+    <Id>4</Id>
+    <Name>The Last of Us Part II</Name>
+    <Amount>69.99</Amount>
+    <Score>9.4</Score>
+    <ReleaseDate>2020-06-19</ReleaseDate>
+    <Editor>Naughty Dog</Editor>
+  </Game>
+  <Game>
+    <Id>5</Id>
+    <Name>Gran Turismo 7</Name>
+    <Amount>69.99</Amount>
+    <Score>8.9</Score>
+    <ReleaseDate>2022-03-04</ReleaseDate>
+    <Editor>Polyphony Digital</Editor>
+  </Game>
+  <Game>
+    <Id>6</Id>
+    <Name>Uncharted 4: A Thief's End</Name>
+    <Amount>59.99</Amount>
+    <Score>9.5</Score>
+    <ReleaseDate>2016-05-10</ReleaseDate>
+    <Editor>Naughty Dog</Editor>
+  </Game>
+  <Game>
+    <Id>7</Id>
+    <Name>Bloodborne</Name>
+    <Amount>39.99</Amount>
+    <Score>9.1</Score>
+    <ReleaseDate>2015-03-24</ReleaseDate>
+    <Editor>FromSoftware</Editor>
+  </Game>
+  <Game>
+    <Id>8</Id>
+    <Name>Horizon Zero Dawn</Name>
+    <Amount>49.99</Amount>
+    <Score>9</Score>
+    <ReleaseDate>2017-02-28</ReleaseDate>
+    <Editor>Guerrilla Games</Editor>
+  </Game>
+  <Game>
+    <Id>9</Id>
+    <Name>Demon's Souls (Remake)</Name>
+    <Amount>69.99</Amount>
+    <Score>8.8</Score>
+    <ReleaseDate>2020-11-12</ReleaseDate>
+    <Editor>Bluepoint Games</Editor>
+  </Game>
+  <Game>
+    <Id>10</Id>
+    <Name>Spider-Man: Miles Morales</Name>
+    <Amount>49.99</Amount>
+    <Score>8.7</Score>
+    <ReleaseDate>2020-11-12</ReleaseDate>
+    <Editor>Insomniac Games</Editor>
+  </Game>
+  <Game>
+    <Id>11</Id>
+    <Name>Ghost of Tsushima</Name>
+    <Amount>59.99</Amount>
+    <Score>9.3</Score>
+    <ReleaseDate>2020-07-17</ReleaseDate>
+    <Editor>Sucker Punch Productions</Editor>
+  </Game>
+  <Game>
+    <Id>12</Id>
+    <Name>The Last of Us Remastered</Name>
+    <Amount>39.99</Amount>
+    <Score>9.6</Score>
+    <ReleaseDate>2014-07-29</ReleaseDate>
+    <Editor>Naughty Dog</Editor>
+  </Game>
+  <Game>
+    <Id>13</Id>
+    <Name>Ratchet &amp; Clank: Rift Apart</Name>
+    <Amount>69.99</Amount>
+    <Score>8.9</Score>
+    <ReleaseDate>2021-06-11</ReleaseDate>
+    <Editor>Insomniac Games</Editor>
+  </Game>
+  <Game>
+    <Id>14</Id>
+    <Name>Infamous Second Son</Name>
+    <Amount>29.99</Amount>
+    <Score>8.5</Score>
+    <ReleaseDate>2014-03-21</ReleaseDate>
+    <Editor>Sucker Punch Productions</Editor>
+  </Game>
+  <Game>
+    <Id>15</Id>
+    <Name>Killzone: Shadow Fall</Name>
+    <Amount>19.99</Amount>
+    <Score>7.8</Score>
+    <ReleaseDate>2013-11-15</ReleaseDate>
+    <Editor>Guerrilla Games</Editor>
+  </Game>
+  <Game>
+    <Id>16</Id>
+    <Name>Returnal</Name>
+    <Amount>69.99</Amount>
+    <Score>8.6</Score>
+    <ReleaseDate>2021-04-30</ReleaseDate>
+    <Editor>Housemarque</Editor>
+  </Game>
+  <Game>
+    <Id>17</Id>
+    <Name>Until Dawn</Name>
+    <Amount>39.99</Amount>
+    <Score>8.2</Score>
+    <ReleaseDate>2015-08-25</ReleaseDate>
+    <Editor>Supermassive Games</Editor>
+  </Game>
+  <Game>
+    <Id>18</Id>
+    <Name>LittleBigPlanet</Name>
+    <Amount>29.99</Amount>
+    <Score>8.8</Score>
+    <ReleaseDate>2008-10-27</ReleaseDate>
+    <Editor>Media Molecule</Editor>
+  </Game>
+  <Game>
+    <Id>19</Id>
+    <Name>Resistance: Fall of Man</Name>
+    <Amount>24.99</Amount>
+    <Score>8.1</Score>
+    <ReleaseDate>2006-11-17</ReleaseDate>
+    <Editor>Insomniac Games</Editor>
+  </Game>
+  <Game>
+    <Id>20</Id>
+    <Name>Days Gone</Name>
+    <Amount>49.99</Amount>
+    <Score>7.9</Score>
+    <ReleaseDate>2019-04-26</ReleaseDate>
+    <Editor>Bend Studio</Editor>
+  </Game>
+</Games>

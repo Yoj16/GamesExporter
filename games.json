@@ -1,0 +1,163 @@
+[
+    {
+      "id": 1,
+      "name": "Metal Gear Solid",
+      "amount": 49.99,
+      "score": 9.8,
+      "release_date": "1998-10-21",
+      "editor": "Konami"
+    },
+    {
+      "id": 2,
+      "name": "Final Fantasy VII",
+      "amount": 59.99,
+      "score": 9.7,
+      "release_date": "1997-01-31",
+      "editor": "SquareSoft"
+    },
+    {
+      "id": 3,
+      "name": "God of War",
+      "amount": 69.99,
+      "score": 9.6,
+      "release_date": "2018-04-20",
+      "editor": "Sony Interactive Entertainment"
+    },
+    {
+      "id": 4,
+      "name": "The Last of Us Part II",
+      "amount": 69.99,
+      "score": 9.4,
+      "release_date": "2020-06-19",
+      "editor": "Naughty Dog"
+    },
+    {
+      "id": 5,
+      "name": "Gran Turismo 7",
+      "amount": 69.99,
+      "score": 8.9,
+      "release_date": "2022-03-04",
+      "editor": "Polyphony Digital"
+    },
+    {
+      "id": 6,
+      "name": "Uncharted 4: A Thief's End",
+      "amount": 59.99,
+      "score": 9.5,
+      "release_date": "2016-05-10",
+      "editor": "Naughty Dog"
+    },
+    {
+      "id": 7,
+      "name": "Bloodborne",
+      "amount": 39.99,
+      "score": 9.1,
+      "release_date": "2015-03-24",
+      "editor": "FromSoftware"
+    },
+    {
+      "id": 8,
+      "name": "Horizon Zero Dawn",
+      "amount": 49.99,
+      "score": 9.0,
+      "release_date": "2017-02-28",
+      "editor": "Guerrilla Games"
+    },
+    {
+      "id": 9,
+      "name": "Demon's Souls (Remake)",
+      "amount": 69.99,
+      "score": 8.8,
+      "release_date": "2020-11-12",
+      "editor": "Bluepoint Games"
+    },
+    {
+      "id": 10,
+      "name": "Spider-Man: Miles Morales",
+      "amount": 49.99,
+      "score": 8.7,
+      "release_date": "2020-11-12",
+      "editor": "Insomniac Games"
+    },
+    {
+      "id": 11,
+      "name": "Ghost of Tsushima",
+      "amount": 59.99,
+      "score": 9.3,
+      "release_date": "2020-07-17",
+      "editor": "Sucker Punch Productions"
+    },
+    {
+      "id": 12,
+      "name": "The Last of Us Remastered",
+      "amount": 39.99,
+      "score": 9.6,
+      "release_date": "2014-07-29",
+      "editor": "Naughty Dog"
+    },
+    {
+      "id": 13,
+      "name": "Ratchet & Clank: Rift Apart",
+      "amount": 69.99,
+      "score": 8.9,
+      "release_date": "2021-06-11",
+      "editor": "Insomniac Games"
+    },
+    {
+      "id": 14,
+      "name": "Infamous Second Son",
+      "amount": 29.99,
+      "score": 8.5,
+      "release_date": "2014-03-21",
+      "editor": "Sucker Punch Productions"
+    },
+    {
+      "id": 15,
+      "name": "Killzone: Shadow Fall",
+      "amount": 19.99,
+      "score": 7.8,
+      "release_date": "2013-11-15",
+      "editor": "Guerrilla Games"
+    },
+    {
+      "id": 16,
+      "name": "Returnal",
+      "amount": 69.99,
+      "score": 8.6,
+      "release_date": "2021-04-30",
+      "editor": "Housemarque"
+    },
+    {
+      "id": 17,
+      "name": "Until Dawn",
+      "amount": 39.99,
+      "score": 8.2,
+      "release_date": "2015-08-25",
+      "editor": "Supermassive Games"
+    },
+    {
+      "id": 18,
+      "name": "LittleBigPlanet",
+      "amount": 29.99,
+      "score": 8.8,
+      "release_date": "2008-10-27",
+      "editor": "Media Molecule"
+    },
+    {
+      "id": 19,
+      "name": "Resistance: Fall of Man",
+      "amount": 24.99,
+      "score": 8.1,
+      "release_date": "2006-11-17",
+      "editor": "Insomniac Games"
+    },
+    {
+      "id": 20,
+      "name": "Days Gone",
+      "amount": 49.99,
+      "score": 7.9,
+      "release_date": "2019-04-26",
+      "editor": "Bend Studio"
+    }
+]
+
